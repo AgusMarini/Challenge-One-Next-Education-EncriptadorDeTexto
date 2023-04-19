@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(111, 111, 134);
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+label {
+    display: block;
+    margin-top: 20px;
+}
+.logo {
+    width: 100%;
+    float: left;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 80% ;
+    border-radius:24px ;
+    background: whitesmoke;
+}
+#texto1{
+    float: left;
+    margin-left: 10%;
+    color: #0a3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px; 
+    left: 40px;
+    top: 240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    }
+ #imgDer{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0a3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px; 
+}
+.right{
+    float: right;
+    border-radius: 24px;
+    width: 30%;
+    height: auto;
+    background: white;
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background-color: white;
+}
+.boton-encriptar {
+   padding: 24px;
+   width: 30%;
+   height: 60%; 
+   border-radius: 24px;
+   margin-left: 15%;
+   background: #0a3871;
+   display: inline-block;
+   cursor: pointer;
+}
+.boton-desencriptar{
+   padding: 24px;
+   width: 30%;
+   height: 60%; 
+   border-radius: 24px;
+   margin-left: 15%;
+   background: #0a3871;
+   display: inline-block;
+   cursor: pointer;
+  }
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #0a3871;
+    border-radius: 24px;
+    display: none;
+    cursor: pointer;
+}
+
+/* Dispositivos pequeños, como smartphones */
+@media (max-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+    .left, .right, .left-button {
+      width: 100%;
+      margin: 0;
+      float: none;
+    }
+    #imgDer {
+      margin-top: 10%;
+      width: 70%;
+      margin-left: 15%;
+    }
+    #copiar {
+      margin-top: 10%;
+      margin-left: 20%;
+      width: 60%;
+    }
+    .boton-encriptar, .boton-desencriptar {
+      width: 45%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+  }
+  
+  /* Dispositivos medianos, como tablets */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .container {
+      max-width: 100%;
+    }
+    #imgDer {
+      margin-top: 10%;
+      width: 70%;
+      margin-left: 15%;
+    }
+    #copiar {
+      margin-top: 10%;
+      margin-left: 20%;
+      width: 60%;
+    }
+    .boton-encriptar, .boton-desencriptar {
+      width: 45%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+  }
+  
+ 
+  
